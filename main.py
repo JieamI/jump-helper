@@ -19,9 +19,6 @@ def jump(distance):
     random_pos = (randint(x_min, x_max), randint(y_min, y_max))
     press(random_pos, duration)
 
-
-
-
 def main():
     # enable debug
     updateRecorder = enableRecorder()
